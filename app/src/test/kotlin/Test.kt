@@ -15,7 +15,7 @@ import org.kohsuke.github.GHContentUpdateResponse
 class GitHubFunctionsIntegrationTest {
 
     // Path to config.json file
-    private val configFilePath = "src/test/resources/config.json"
+    private val configFilePath = "config.json"
 
     // config.json file tests
     @Test
