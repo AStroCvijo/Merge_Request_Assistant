@@ -15,11 +15,13 @@ Date of creation: December, 2024
     ```bash
     cd Merge_Request_Assistant
     ```
-4. Build the app:
+4. Put your GitHub personal access token in `app/config.json`
+   
+5. Build the app:
     ```bash
     gradlew build
     ```
-5. Run the app:
+6. Run the app:
    ```bash
     gradlew run
     ```
