@@ -5,14 +5,16 @@ A CLI tool that connects to a GitHub account via a personal access token, lists 
 Date of creation: December, 2024
 
 ## Qucikstart
-1. Clone the repository:
+1. Make sure you have [gradle](https://gradle.org/install/) installed on your machine and have added it to the PATH variable
+   
+2. Clone the repository:
     ```bash
     git clone https://github.com/AStroCvijo/Merge_Request_Assistant.git
     ```
-2. Make sure you have [gradle](https://gradle.org/install/) installed on your machine
-   
-3. Add Gradle to the PATH variable
-   
+3. Navigate to the repository:
+    ```bash
+    cd Merge_Request_Assistant
+    ```
 4. Build the app:
     ```bash
     gradlew build
